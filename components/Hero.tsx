@@ -52,12 +52,12 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Nature Does Not Hurry, Yet Everything is Accomplished"
+            words=" Hi There! I'm Favian, Currently Studying Web Development"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Favian, a Software Engineering student in Malang, Indonesia.
+            Taking A Software Engineering Major at SMK Telkom Malang, Indonesia
           </p>
 
           <a href="#about">
