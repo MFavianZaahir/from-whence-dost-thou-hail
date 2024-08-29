@@ -8,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "I prioritize effective client collaboration and foster open communication to ensure project success",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -49,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a Tailwind Next Nike Web",
+    title: "Currently slicing a figma design using nextjs",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -76,59 +77,41 @@ export const projects = [
     des: "Become an auctioneer or a bidder using php",
     img: "/auctionary.svg",
     iconLists: ["/php.svg", "/html.svg", "/css.svg", "js.svg"],
-    link: "/https://auction-project-website.000webhostapp.com/home.php",
+    link: "https://auction-project-website.000webhostapp.com/home.php",
   },
   {
     id: 2,
     title: "Premium App",
     des: "Your go-to platform for purchasing premium apps and exclusive digital content.",
-    img: "/premium-app-desktop.svg",
-    iconLists: ["/node-js.svg", "/express.svg", "/vite.svg", "/html.svg", "/css.svg"],
-    link: "/sadly this hasn't been hosted yet",
+    img: "/premium-app.svg",
+    iconLists: [
+      "/node-js.svg",
+      "/express.svg",
+      "/vite.svg",
+      "/html.svg",
+      "/css.svg",
+    ],
+    link: "https://github.com/panntod/Premium-App-Frontend",
   },
-  // {
-  //   id: 3,
-  //   title: "AI Image SaaS - Canva Application",
-  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-  //   img: "/p3.svg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-  //   link: "/ui.aiimg.com",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Animated Apple Iphone 3D Website",
-  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //   img: "/p4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //   link: "/ui.apple.com",
-  // },
+  {
+    id: 3,
+    title: "Nike Replica",
+    des: "A modern and sleek nike replica website, designed to showcase products with elegance and responsiveness.",
+    img: "/nike-replica.svg",
+    iconLists: ["/re.svg", "/Tailwind_CSS_Logo.svg", "/vite.svg"],
+    link: "https://tailwind-maxxing.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Simplified E-Commerce",
+    des: "A Backend focused website that's applying the base form of security and using stripe as a payment gateway",
+    img: "/ecommerce.svg",
+    iconLists: ["/next.svg", "/prism.svg", "/ts.svg", "/stripe.svg", "/shadcn.svg"],
+    link: "https://github.com/MFavianZaahir/Next_Stripe_E-Commerce",
+  },
 ];
 
 export const testimonials = [
-  {
-    quote:
-      "Collaborating with Favian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Favian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Favian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Favian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Favian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Favian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Favian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Favian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Favian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Favian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Favian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Favian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
   {
     quote:
       "Collaborating with Favian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Favian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Favian is the ideal partner.",
@@ -187,7 +170,7 @@ export const workExperience = [
   },
   {
     id: 3,
-    title: "Google Arcade Training",
+    title: "Google Cloud Skilboost Training",
     desc: "Learned and used google cloud service and AI using tensorflow provided by dicoding",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
